@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "furenikusroads:block/chevron_mid_left_thin_15_16"
+    },
+    "facing=east": {
+      "model": "furenikusroads:block/chevron_mid_left_thin_15_16",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "furenikusroads:block/chevron_mid_left_thin_15_16",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furenikusroads:block/chevron_mid_left_thin_15_16",
+      "y": 270
+    }
+  }
+}

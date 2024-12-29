@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"40": "furenikusroads:block/paints/town_4"
+	},
+	"elements": [
+		{
+			"from": [-16, -6, 0],
+			"to": [32, -5.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 106, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0.5], "texture": "#40"},
+				"east": {"uv": [0, 0, 0.5, 16], "rotation": 270, "texture": "#40"},
+				"south": {"uv": [0, 15.5, 16, 16], "rotation": 180, "texture": "#40"},
+				"west": {"uv": [15.5, 0, 16, 16], "rotation": 90, "texture": "#40"},
+				"up": {"uv": [0, 4.75, 16, 11.25], "rotation": 180, "texture": "#40"},
+				"down": {"uv": [16, 4.75, 0, 11.25], "texture": "#40"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 6.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [3.25, 10, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"firstperson_righthand": {
+			"rotation": [30, 45, 0],
+			"translation": [2.25, 6, 0.75],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
+}

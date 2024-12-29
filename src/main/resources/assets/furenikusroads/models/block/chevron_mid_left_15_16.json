@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "furenikusroads:block/paints/chevron_mid_left_0",
+		"particle": "furenikusroads:block/paints/chevron_mid_left_0"
+	},
+	"elements": [
+		{
+			"from": [0, -1, 0],
+			"to": [16, -0.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-32, 75, 0]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 0.5], "texture": "#0"},
+				"east": {"uv": [0, 16, 0.5, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 0.5], "texture": "#0"},
+				"west": {"uv": [15.5, 16, 16, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

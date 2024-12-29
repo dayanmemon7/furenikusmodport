@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "furenikusroads:block/paints/bus_0",
+		"particle": "furenikusroads:block/paints/bus_0"
+	},
+	"elements": [
+		{
+			"from": [-16, -14, 0],
+			"to": [32, -13.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-32, 75, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.5, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 0.5], "texture": "#0"},
+				"west": {"uv": [14, 2, 16, 0], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 5, 16, 11], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

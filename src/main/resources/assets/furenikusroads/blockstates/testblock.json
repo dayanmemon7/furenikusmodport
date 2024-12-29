@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "furenikusroads:block/testblock" },
+    "facing=east": { "model": "furenikusroads:block/testblock", "y": 90 },
+    "facing=south": { "model": "furenikusroads:block/testblock", "y": 180 },
+    "facing=west": { "model": "furenikusroads:block/testblock", "y": 270 }
+  }
+}
